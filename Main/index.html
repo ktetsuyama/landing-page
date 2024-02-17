@@ -3,18 +3,54 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
 		<title>My Landing Page</title>
 	</head>
 	<body>
 		<main>
-			<heading>
+			<header id="top">
+				<h1>My Landing Page</h1>
 				<nav id="navbar">
-					<p>GitHub</p>
-					<p>Portfolio</p>
-					<p>Contact</p>
+					<ul class="col">
+						<li>
+							<a href="#landing">Landing Image</a>
+						</li>
+						<li>
+							<a href="#form">Contact Form</a>
+						</li>
+						<li>
+							<a href="#contact-info">My Contact Info</a>
+						</li>
+					</ul>
 				</nav>
-			</heading>
+			</header>
+			<img src="./assets/images/placeholder.png" id="landing" />
+			<section id="form">
+				<h3>Please submit you contact info if you'd like to learn more!</h3>
+				<p>Your Name</p>
+				<section><input type="text" id="name" /></section>
+				<p>Your Email</p>
+				<section><input type="email" id="email" /></section>
+				<button class="btn" type="submit">Submit</button>
+			</section>
+			<section id="contact-info">
+				<h2>My Contact Info</h2>
+				<ul>
+					<li>
+						<strong>Email:</strong>
+						<a href="mailto:kroyal.eisenberg@gmail.com">
+							kroyal.eisenberg@gmail.com</a
+						>
+					</li>
+					<li>
+						<strong>Github:</strong>
+						<a href="https://github.com/ktetsuyama"
+							>https://github.com/ktetsuyama</a
+						>
+					</li>
+				</ul>
+			</section>
 		</main>
+		<footer>Copyright 2024</footer>
 	</body>
 </html>

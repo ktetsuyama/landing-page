@@ -1,3 +1,93 @@
 body {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+#top {
+	display: flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	background-color: blanchedalmond;
+}
+
+h1 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: blue;
+}
+
+#navbar {
+	display: flex;
+	justify-content: right;
+}
+
+#navbar ul {
+	padding: 0 0 0 0;
+}
+#navbar ul li {
+	display: inline-block;
+	width: 20%;
+	padding: 30px;
+	text-decoration: underline;
+	text-underline-offset: 7px;
+	border-bottom: 0px;
+}
+
+#navbar li {
+	text-align: center;
+	color: green;
+}
+
+#navbar li a {
+	color: green;
+}
+
+h2 {
+	display: flex;
+	text-align: center;
+	color: blue;
+}
+
+img {
+	border-radius: 30%;
+	margin-top: 225px;
+	padding: 1% 1%;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: beige;
+	border-style: solid;
+	border-color: bisque;
+	border-width: 5px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	margin: 2% 0 2% 0;
+}
+
+#contact-info {
+	display: flex;
+	justify-content: left;
 }
